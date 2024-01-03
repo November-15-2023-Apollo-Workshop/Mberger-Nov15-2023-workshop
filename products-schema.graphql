@@ -90,7 +90,7 @@ type Product @key(fields: "sku") @key(fields: "id") {
   variants: [ProductVariant]
   featured: Boolean!
   shortDescription: String
-  taxRate: Int
+  tax: Int
 }
 
 type Attribute {
