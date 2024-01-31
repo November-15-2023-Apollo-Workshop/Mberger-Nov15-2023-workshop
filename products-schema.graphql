@@ -90,8 +90,8 @@ type Product @key(fields: "sku") @key(fields: "id") {
   variants: [ProductVariant]
   featured: Boolean!
   shortDescription: String
-  "promo code that is entered"
-  promoCode: String 
+  """promotion code that is entered"""
+  promoCode: String
   tax: Int
 }
 
