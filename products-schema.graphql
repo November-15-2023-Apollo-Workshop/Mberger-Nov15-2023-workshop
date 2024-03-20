@@ -89,6 +89,7 @@ type Product @key(fields: "sku") @key(fields: "id") {
   attributes: [Attribute]
   variants: [ProductVariant]
   featured: Boolean!
+"""added description"""
   shortDescription: String
 }
 
